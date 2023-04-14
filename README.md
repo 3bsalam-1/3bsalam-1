@@ -71,6 +71,8 @@ I am a OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/g
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=3bsalam-1&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
   
  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3bsalam-1&layout=compact&bg_color=00000000&border_color=00000000)](https://github.com/anuraghazra/github-readme-stats)
+  
+ [![trophy](https://github-profile-trophy.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 </div>
 
 ---
