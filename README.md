@@ -8,7 +8,7 @@
   <a href="https://www.instagram.com/3bsalam.1/">
     <img src="https://github.com/gauravghongde/social-icons/blob/master/SVG/White/Instagram_white.svg" alt="Instagram"/>
   </a>
-  <a href="https://www.linkedin.com/in/ahmed-abdulsalam-4b16b7211/">
+  <a href="https://www.linkedin.com/in/ahmed-abdulsalam1/">
     <img src="https://github.com/gauravghongde/social-icons/blob/master/SVG/White/LinkedIN_white.svg" alt="LinkedIn"/>
   </a>
 </div>
