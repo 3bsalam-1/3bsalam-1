@@ -74,6 +74,7 @@ I am a OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/g
  
  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=3bsalam-1&show_icons=true&theme=tokyonight&bg_color=00000000&border_color=00000000)
 
+ [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=3bsalam_1&bg_color=00000000&border_color=00000000)](https://github.com/anuraghazra/github-readme-stats)
   
  [![trophy](https://github-profile-trophy.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 </div>
