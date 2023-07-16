@@ -29,9 +29,9 @@
 ---
 
 ### :man_technologist: About Me :
-I am a OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Egypt.
-- 🔭 I’m currently working on Ai project
-- 🌱 I’m currently learning Python language , Tenserflow 
+I am an OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Egypt.
+- 🔭 I’m currently working on an Ai project
+- 🌱 I’m currently learning Python language, TensorFlow 
 - 💬 Ask me about Technical support, technology, desktop apps, and IT 
 - 📫 How to reach me: [Instagram](https://www.instagram.com/3bsalam.1/),[Facebook](https://www.facebook.com/3BSALAM.Alien/)
 - 😄 Pronouns: he/him
@@ -74,7 +74,6 @@ I am a OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/g
  
  ![Anurag's GitHub stats](https://github-readme-stats-3bsalam-1.vercel.app/api?username=3bsalam-1&show_icons=true&theme=tokyonight&bg_color=00000000&border_color=00000000)
 
- [![willianrod's wakatime stats](https://github-readme-stats-3bsalam-1.vercel.app/api/wakatime?username=3bsalam_1&bg_color=00000000&border_color=00000000)](https://wakatime.com/@3bsalam_1)
   
  [![trophy](https://github-profile-trophy.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 </div>
