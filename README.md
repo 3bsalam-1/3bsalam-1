@@ -90,4 +90,4 @@ I am an OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 
 ### :writing_hand: Blog  : [3bsalam-1](https://3bsalam-1.github.io/Blog/)
 
-![snake gif](https://github.com/3bsalam-1/3bsalam-1/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/3bsalam-1/3bsalam-1/blob/output/github-contribution-grid-snake-dark.svg)
