@@ -1,19 +1,19 @@
-<div id="header" align="center">
+ <div id="header" align="center">
+  <img src="https://komarev.com/ghpvc/?username=3bsalam-1&style=for-the-badge&color=grey&&label=PROFILE+VIEWS"/>
+</div>
+ 
+ <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 <div id="badges"align="center">
-  <a href="https://www.facebook.com/3BSALAM.Alien/">
-    <img src="https://github.com/gauravghongde/social-icons/blob/master/SVG/White/Facebook_white.svg" alt="Facebook"/>
-  </a>
-  <a href="https://www.instagram.com/3bsalam.1/">
-    <img src="https://github.com/gauravghongde/social-icons/blob/master/SVG/White/Instagram_white.svg" alt="Instagram"/>
-  </a>
-  <a href="https://www.linkedin.com/in/ahmed-abdulsalam1/">
-    <img src="https://github.com/gauravghongde/social-icons/blob/master/SVG/White/LinkedIN_white.svg" alt="LinkedIn"/>
-  </a>
+  
+![Static Badge](https://img.shields.io/badge/facebook-blue?style=for-the-badge&link=https%3A%2F%2Fwww.facebook.com%2F3BSALAM.Alien)
+![Static Badge](https://img.shields.io/badge/instagram-white?style=for-the-badge&logo=instagram&link=https%3A%2F%2Fwww.instagram.com%2F3bsalam.1%2F)
+![Static Badge](https://img.shields.io/badge/linkedin-white?style=for-the-badge&logo=linkedin&color=%230A66C2&link=https%3A%2F%2Fwww.instagram.com%2F3bsalam.1%2F)
+
 </div>
 <div id="view" align="center">
-<img src="https://komarev.com/ghpvc/?username=3bsalam-1&style=flat&color=grey&&label=PROFILE+VIEWS"/>
+
   
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Anton&pause=1000&color=2388F7&center=true&width=435&lines=Data+Scientist)](https://git.io/typing-svg)
 
