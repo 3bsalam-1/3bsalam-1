@@ -1,7 +1,7 @@
 
  
  <div id="header" align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" height=190 />
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" height=180 />
 </div>
 <div id="badges"align="center">
   
@@ -21,7 +21,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Anton&pause=1000&color=2388F7&center=true&width=435&lines=Data+Scientist)](https://git.io/typing-svg)
 
-[![Spotify](https://novatorem-self-one.vercel.app/api/spotify?width=50)](https://open.spotify.com/user/9m3wv5dp)
+[![Spotify](https://novatorem-self-one.vercel.app/api/spotify)](https://open.spotify.com/user/9m3wv5dp)
 </div>
 
 <h1>
