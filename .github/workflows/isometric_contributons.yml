@@ -18,6 +18,5 @@ jobs:
           user: 3bsalam-1
           template: classic
           base: ""
-          config_timezone: Asia/Calcutta
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
