@@ -19,10 +19,9 @@
 </div>
 <div id="view" align="center">
 
-  
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Anton&pause=1000&color=2388F7&center=true&width=435&lines=Data+Scientist)](https://git.io/typing-svg)
 
-[![Spotify](https://novatorem-self-one.vercel.app/api/spotify)](https://open.spotify.com/user/9m3wv5dp)
+[![Spotify](https://novatorem-self-one.vercel.app/api/spotify?width=50)](https://open.spotify.com/user/9m3wv5dp)
 </div>
 
 <h1>
