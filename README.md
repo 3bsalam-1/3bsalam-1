@@ -102,15 +102,10 @@ Class Profile :
 <div align="center">
   
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=3bsalam-1&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://github.com/3bsalam-1?tab=repositories)
-  
- [![Top Langs](https://github-readme-stats-two-zeta-68.vercel.app/api/top-langs/?username=3bsalam-1&bg_color=00000000&border_color=00000000&&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
- 
- ![Anurag's GitHub stats](https://github-readme-stats-3bsalam-1.vercel.app/api?username=3bsalam-1&show_icons=true&theme=tokyonight&bg_color=00000000&border_color=00000000)
 
-### 📊 Github Stats
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3bsalam-1&bg_color=00000000&border_color=00000000&&langs_count=10&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-<details>
-<summary>Expand</summary>
+---
 
 <table><tr><td valign="top" width="50%">
 
@@ -136,16 +131,11 @@ Class Profile :
 
 </details>
 
-### 📊 Development Breakdown
-
-<details>
-<summary>Expand</summary>
+---
 
 <img src="./assets/metrics.plugin.wakatime.svg">
 
-</details>
-
-### ⚙️ Misc
+---
 
 <table><tr><td valign="top" width="50%">
 
@@ -157,7 +147,8 @@ Class Profile :
 
 </td></tr></table>
 
-  
+---
+
  [![trophy](https://github-profile-trophy.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 </div>
 
