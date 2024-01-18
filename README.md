@@ -1,7 +1,7 @@
 
  
  <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" />
 </div>
 <div id="badges"align="center">
   
@@ -30,7 +30,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWZzdGx5enMwcjAxOWlpYWhveGs4ZHNhbXpkdmIxdzMwcjVrejBkMCZjdD1n/f3iwJFOVOwuy7K6FFw/giphy.gif" width="600" height="300"/>
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="2200">
 </div>
 
 ---
