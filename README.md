@@ -4,16 +4,16 @@
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" height=170 />
 </div>
 <div id="badges"align="center">
-  
+	
+[![Spotify](https://novatorem-self-one.vercel.app/api/spotify)](https://open.spotify.com/user/9m3wv5dp)
+	
 ![Static Badge](https://img.shields.io/badge/facebook-blue?style=for-the-badge&link=https%3A%2F%2Fwww.facebook.com%2F3BSALAM.Alien)
 ![Static Badge](https://img.shields.io/badge/instagram-white?style=for-the-badge&logo=instagram&link=https%3A%2F%2Fwww.instagram.com%2F3bsalam.1%2F)
 ![Static Badge](https://img.shields.io/badge/linkedin-white?style=for-the-badge&logo=linkedin&color=%230A66C2&link=https%3A%2F%2Fwww.instagram.com%2F3bsalam.1%2F)
 
 </div>
 
-
 <div id="header1" align="center">
-	
 <!--[![committers.top badge](https://user-badge.committers.top/egypt/3bsalam-1.svg)](https://user-badge.committers.top/egypt/3bsalam-1) -->
   <img src="https://komarev.com/ghpvc/?username=3bsalam-1&style=for-the-badge&color=grey&&label=PROFILE+VIEWS"/>
 </div>
@@ -21,7 +21,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Anton&pause=1000&color=2388F7&center=true&width=435&lines=Data+Scientist)](https://git.io/typing-svg)
 
-[![Spotify](https://novatorem-self-one.vercel.app/api/spotify)](https://open.spotify.com/user/9m3wv5dp)
+
 </div>
 
 <h1>
