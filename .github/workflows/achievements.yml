@@ -15,7 +15,7 @@ jobs:
           filename: assets/metrics.plugin.achievements.svg
 
           # Options
-          user: Envoy-VC
+          user: 3bsalam-1
           template: classic
           base: ""
           config_timezone: Asia/Calcutta
