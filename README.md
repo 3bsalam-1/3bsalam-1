@@ -36,13 +36,34 @@
 ---
 
 ### :man_technologist: About Me :
-I am an OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Egypt.
-- 🔭 I’m currently working on an Ai project
-- 🌱 I’m currently learning Python language, TensorFlow 
-- 💬 Ask me about Technical support, technology, desktop apps, and IT 
-- 📫 How to reach me: [Instagram](https://www.instagram.com/3bsalam.1/),[Facebook](https://www.facebook.com/3BSALAM.Alien/)
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: I can cook
+
+```python
+#SPDX-License-Identifier: MIT
+pragma python ^3.10.1;
+
+Class Profile :
+    self.name = "Ahmed Mohamed"
+    self.jop_title ="Data Scientist"
+    self.country= "Egypt"
+    self.currently_working = ["Data Science","Machine Learning","Deep Learning"]
+    self.currently_learning = ["Advanced Data Science","Recommendation Systems","Reinforcement Learning"]
+    self.ask=_me_about = ["Technical support", "Operating systems", "Desktop apps", "IT", "Data Science"]
+    self.fun_fact = "I can cook"
+    self.pronouns = "He | Him"
+
+    def getSkills():
+        global skills = [
+            string("Python"),
+            "Java",
+            "C/C++",
+            "Bash",
+            "Tensorflow",
+            "HTML & CSS"]
+
+        return skills
+
+```
+
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
@@ -85,6 +106,56 @@ I am an OS Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
  [![Top Langs](https://github-readme-stats-two-zeta-68.vercel.app/api/top-langs/?username=3bsalam-1&bg_color=00000000&border_color=00000000&&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
  
  ![Anurag's GitHub stats](https://github-readme-stats-3bsalam-1.vercel.app/api?username=3bsalam-1&show_icons=true&theme=tokyonight&bg_color=00000000&border_color=00000000)
+
+### 📊 Github Stats
+
+<details>
+<summary>Expand</summary>
+
+<table><tr><td valign="top" width="50%">
+
+<br>
+
+<img src="./assets/metrics.plugin.overview.svg">
+
+</td><td valign="top" width="50%">
+
+<img src="./assets/metrics.plugin.isocalendar.fullyear.svg" >
+
+</td></tr></table>
+
+<table><tr><td valign="top" width="50%">
+
+<img src="./assets/metrics.plugin.activity.svg">
+
+</td><td valign="top" width="50%">
+
+<img src="./assets/metrics.plugin.stargazers.svg" >
+
+</td></tr></table>
+
+</details>
+
+### 📊 Development Breakdown
+
+<details>
+<summary>Expand</summary>
+
+<img src="./assets/metrics.plugin.wakatime.svg">
+
+</details>
+
+### ⚙️ Misc
+
+<table><tr><td valign="top" width="50%">
+
+<img src="https://readme-jokes.vercel.app/api?hideBorder" alt="Jokes Card" />
+
+</td><td valign="top" width="50%">
+
+<img src="./assets/metrics.plugin.achievements.svg">
+
+</td></tr></table>
 
   
  [![trophy](https://github-profile-trophy.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
