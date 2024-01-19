@@ -5,15 +5,13 @@ on:
   fork:
   watch:
     types: [started]
-  schedule:
-    - cron: "0 * * * *"
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Update description
+      - name: This repo has x stars y forks
         uses: ouuan/This-repo-has-x-stars-y-forks-action@v2
         with:
           token: ${{ secrets.USER_TOKEN }}
-          template: 'A demo for this-repo-has-x-stars-y-forks-action: <auto>.'
+          template: "🤖 A GitHub Action to update this sentence for your repository: <auto>."
