@@ -1,16 +1,12 @@
-name: This repo has x stars y forks
+name: Update fork star
 
 on:
-  push:
-    branches:
-      - master
-      - main
   fork:
   watch:
     types:
       - started
   schedule:
-    - cron: "0 * * * *"
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,4 +17,4 @@ jobs:
         uses: ouuan/This-repo-has-x-stars-y-forks-action@v2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          template: "A profile README with <starCount> stars and <forkCount> forks 🌟"
+          template: "JayantGoel001's profile with <starCount> stars ⭐ and <forkCount> forks 🎉."
