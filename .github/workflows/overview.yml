@@ -15,7 +15,7 @@ jobs:
           # Current configuration doesn't require a GitHub token
           filename: assets/metrics.plugin.overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          # Options
+          # Options 
           user: 3bsalam-1
           template: classic
           base: header, activity, community
