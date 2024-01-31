@@ -13,7 +13,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: assets/metrics.plugin.achievements.svg
-
+          
           # Options
           user: 3bsalam-1
           template: classic
