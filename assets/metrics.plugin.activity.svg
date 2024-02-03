@@ -23,12 +23,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#7 Update main.py: Remove unnecessary code</span>
+                                        <span class="issue">#20 Update heart beat model</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div> in <span class="repo">3bsalam-1/Fitsync-Ai-API</span></div>
-                                    <div>3 files changed <span class="code">++0 --1</span></div>
+                                    <div> in <span class="repo">3bsalam-1/FitSync</span></div>
+                                    <div>2 files changed <span class="code">++87 --54</span></div>
                                 </div>
                             </section>
                         </div>
@@ -40,11 +40,11 @@
                                     </svg>
                                     <div class="content">
                                         Reviewed
-                                        <span class="issue">#7 Update main.py: Remove unnecessary code</span>
+                                        <span class="issue">#20 Update heart beat model</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened  in <span class="repo">3bsalam-1/Fitsync-Ai-API</span></div>
+                                    <div>opened  in <span class="repo">3bsalam-1/FitSync</span></div>
                                 </div>
                             </section>
                         </div>
@@ -56,12 +56,12 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#7 Update main.py: Remove unnecessary code</span>
+                                        <span class="issue">#20 Update heart beat model</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div> in <span class="repo">3bsalam-1/Fitsync-Ai-API</span></div>
-                                    <div>3 files changed <span class="code">++0 --1</span></div>
+                                    <div> in <span class="repo">3bsalam-1/FitSync</span></div>
+                                    <div>2 files changed <span class="code">++87 --54</span></div>
                                 </div>
                             </section>
                         </div>
@@ -73,12 +73,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#6 Delete heart_beat_model.pkl</span>
+                                        <span class="issue">#7 Update main.py: Remove unnecessary code</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">3bsalam-1/Fitsync-Ai-API</span></div>
-                                    <div>1 file changed <span class="code">++0 --0</span></div>
+                                    <div>3 files changed <span class="code">++0 --1</span></div>
                                 </div>
                             </section>
                         </div>
