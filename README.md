@@ -95,7 +95,7 @@ Class Profile :
   
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=3bsalam-1&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://github.com/3bsalam-1?tab=repositories)
 
-[![Top Langs](https://github-readme-stats-two-zeta-68.vercel.app/api/top-langs/?username=3bsalam-1&bg_color=00000000&border_color=00000000&&langs_count=10&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-two-zeta-68.vercel.app/api/top-langs/?username=3bsalam-1&bg_color=00000000&border_color=00000000&&langs_count=10&layout=compact)](https://github.com/3bsalam-1?tab=repositories) <!--(https://github.com/anuraghazra/github-readme-stats)-->
 
 ---
 
@@ -133,7 +133,7 @@ Class Profile :
 
 ---
 
- [![trophy](https://github-profile-trophy-ahmed.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true&column=-1)](https://github.com/ryo-ma/github-profile-trophy)
+ [![trophy](https://github-profile-trophy-ahmed.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true&column=-1)](https://github.com/3bsalam-1?tab=repositories)<!--(https://github.com/ryo-ma/github-profile-trophy)-->
 </div>
 
 ---
