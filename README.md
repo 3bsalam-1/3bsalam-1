@@ -9,7 +9,6 @@
 ![Static Badge](https://img.shields.io/badge/instagram-white?style=for-the-badge&logo=instagram&link=https%3A%2F%2Fwww.instagram.com%2F3bsalam.1%2F)
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white&link=https%3A%2F%2Fmedium.com%2F@3bsalam0)
 ![Static Badge](https://img.shields.io/badge/linkedin-white?style=for-the-badge&logo=linkedin&color=%230A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahmed-abdulsalam1%2F)
-
 </div>
 <div id="header1" align="center">
 <!--[![committers.top badge](https://user-badge.committers.top/egypt/3bsalam-1.svg)](https://user-badge.committers.top/egypt/3bsalam-1) -->
