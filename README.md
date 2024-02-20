@@ -56,7 +56,6 @@ Class Profile :
         return skills
 
 ```
-
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
