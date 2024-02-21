@@ -11,8 +11,7 @@
 ![Static Badge](https://img.shields.io/badge/linkedin-white?style=for-the-badge&logo=linkedin&color=%230A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahmed-abdulsalam1%2F)
 </div>
 <div id="header1" align="center">
-<!--[![committers.top badge](https://user-badge.committers.top/egypt/3bsalam-1.svg)](https://user-badge.committers.top/egypt/3bsalam-1) -->
-  <img src="https://komarev.com/ghpvc/?username=3bsalam-1&style=for-the-badge&color=grey&&label=PROFILE+VIEWS"/>
+  <img src="https://komarev.com/ghpvc/?username=3bsalam-1&color=gray&style=for-the-badge&label=VIEWS"/>
 </div>
 <div id="view" align="center">
 	
