@@ -14,7 +14,7 @@
   <img src="https://komarev.com/ghpvc/?username=3bsalam-1&color=gray&style=for-the-badge&label=VIEWS"/>
 </div>
 <div id="view" align="center">
-	
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Anton&pause=1000&color=2388F7&center=true&width=435&lines=Data+Scientist)](https://git.io/typing-svg)
 <h1>
   Hi.<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
