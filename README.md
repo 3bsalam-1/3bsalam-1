@@ -91,7 +91,7 @@ Class Profile :
 ### :fire: My Stats :
 <div align="center">
   
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=3bsalam-1&exclude_days=Mon%2CTue&theme=github-dark-dimmed&hide_border=true&stroke=EBEBEB00&date_format=j%20M%5B%20Y%5D&background=EB545400&excludeDaysLabel=EB545400)](https://github.com/3bsalam-1?tab=repositories)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=3bsalam-1&exclude_days=Mon%2CTue%2CSat&theme=github-dark-dimmed&hide_border=true&stroke=EBEBEB00&date_format=j%20M%5B%20Y%5D&background=EB545400&excludeDaysLabel=EB545400)](https://github.com/3bsalam-1?tab=repositories)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3bsalam-1&bg_color=00000000&border_color=00000000&&langs_count=10&layout=compact)](https://github.com/3bsalam-1?tab=repositories) <!--(https://github.com/anuraghazra/github-readme-stats)-->
 
