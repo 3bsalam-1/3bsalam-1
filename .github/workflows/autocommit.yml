@@ -26,7 +26,7 @@ jobs:
           echo $d > LAST_UPDATED
       - name: pull changes    
         run: |
-          git pull --rebase
+          git pull
       - name: Commit changes
         run: |
           git config --local user.email "3bsalam0@gmail.com"
