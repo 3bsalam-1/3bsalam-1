@@ -20,8 +20,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: "PR-Bot"
           base: main
-          title: Auto Pull Request
-          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
-          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
-          body: This pull request was automatically created by the workflow.
+          title: "Auto Pull Request"
+          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} "<${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>"
+          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} "<${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>"
+          body: "This pull request was automatically created by the workflow."
           assignees: ${{ github.actor }}
