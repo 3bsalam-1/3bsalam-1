@@ -47,7 +47,7 @@ jobs:
           method: squash
 
       - name: Update author information again
-        run: echo Gaurav > AUTHOR
+        run: echo 3bsalam-1 > AUTHOR
 
       - name: Raise Second PR
         id: demo-2
