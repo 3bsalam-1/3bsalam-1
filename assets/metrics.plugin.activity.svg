@@ -23,12 +23,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#123 Update pr.yml</span>
+                                        <span class="issue">#127 Update CreatePr.yml</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">3bsalam-1/3bsalam-1</span></div>
-                                    <div>1 file changed <span class="code">++0 --2</span></div>
+                                    <div>1 file changed <span class="code">++2 --0</span></div>
                                 </div>
                             </section>
                         </div>
@@ -40,12 +40,12 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#123 Update pr.yml</span>
+                                        <span class="issue">#127 Update CreatePr.yml</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">3bsalam-1/3bsalam-1</span></div>
-                                    <div>1 file changed <span class="code">++0 --2</span></div>
+                                    <div>1 file changed <span class="code">++2 --0</span></div>
                                 </div>
                             </section>
                         </div>
@@ -73,12 +73,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#120 Update pr.yml</span>
+                                        <span class="issue">#123 Update pr.yml</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">3bsalam-1/3bsalam-1</span></div>
-                                    <div>1 file changed <span class="code">++4 --4</span></div>
+                                    <div>1 file changed <span class="code">++0 --2</span></div>
                                 </div>
                             </section>
                         </div>
