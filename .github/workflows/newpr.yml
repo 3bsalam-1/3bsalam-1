@@ -1,7 +1,7 @@
 on:
   repository_dispatch:
     types: [create-pull-request]
-name: Create Pull Request2
+name: Create PullR
 jobs:
   createPullRequest:
     runs-on: ubuntu-latest
