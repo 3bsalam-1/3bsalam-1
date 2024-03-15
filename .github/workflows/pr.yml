@@ -1,0 +1,32 @@
+name: Open Pull Request
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  open_pull_request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: extract git commit data
+        uses: rlespinasse/git-commit-data-action@v1.x
+
+      - name: Update author information
+        run: echo ${{ env.GIT_COMMIT_AUTHOR_NAME }} > AUTHOR
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "${{ env.GIT_COMMIT_AUTHOR_NAME }}"
+          git config --global user.email "${{ env.GIT_COMMIT_AUTHOR_EMAIL }}"
+
+      - name: Create Pull Request
+        run: |
+          git checkout -b feature-branch
+          git add .
+          git commit -m "Add new feature"
+          git push origin feature-branch
+          gh pr create --title "New Feature" --body "Please review this pull request" --base main --head feature-branch
