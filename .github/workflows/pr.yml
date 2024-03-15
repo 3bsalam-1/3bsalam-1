@@ -17,7 +17,7 @@ jobs:
         run: |
           USER_AGENT="3bsalam-1"
           TOKEN=${{ secrets.GITHUB_TOKEN }}
-          REPO_OWNER="3bsalam-1
+          REPO_OWNER="3bsalam-1"
           REPO_NAME="3bsalam-1"
           BASE_BRANCH="main"
           NEW_BRANCH="automated-pull-request"
@@ -37,7 +37,7 @@ jobs:
             -H "Authorization: Bearer ${TOKEN}" \
             -H "User-Agent: ${USER_AGENT}" \
             "https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/pulls" \
-            -d "{\"title\":\"${TITLE}\", \"body\":\"${MESSAGE}\", \"head\":\"${REPO_OWNER}:${NEW_BRANCH}\", \"base\":\"${BASE_BRANCH}\"}"
+            -d '{"title":"${TITLE}", "body":"${MESSAGE}", "head":"${REPO_OWNER}:${NEW_BRANCH}", "base":"${BASE_BRANCH}"}'
 
           # Clean up
           git checkout main
