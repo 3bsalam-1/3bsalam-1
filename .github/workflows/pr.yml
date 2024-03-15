@@ -14,31 +14,22 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Create Pull Request
-        run: |
-          # Variables
-          USER_AGENT="3bsalam-1"
-          TOKEN=${{ secrets.GITHUB_TOKEN }}
-          REPO_OWNER="3bsalam-1"
-          REPO_NAME="3bsalam-1"
-          BASE_BRANCH="main"
-          NEW_BRANCH="automated-pull-request"
-          TITLE="Automated Pull Request"
-          MESSAGE="This pull request is automatically created by a user."
-          COMMIT_MESSAGE="Create ${NEW_BRANCH} branch"
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const title = "Automated Pull Request";
+            const body = "This pull request is automatically created by a user.";
+            const base = "main";
+            const head = "automated-pull-request";
 
-          # Create a new branch
-          git checkout -b ${NEW_BRANCH}
-          git push -u origin ${NEW_BRANCH}
+            const { data: pullRequest } = await github.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              base,
+              head,
+            });
 
-          # Create a new pull request
-          curl -X POST \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: Bearer ${TOKEN}" \
-            -H "User-Agent: ${USER_AGENT}" \
-            "https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/pulls" \
-            -d '{"title":"'"$TITLE"'","body":"'"$MESSAGE"'","head":"'"$REPO_OWNER:${NEW_BRANCH}"'","base":"'"$BASE_BRANCH"'"}'
-
-          # Clean up
-          git checkout $BASE_BRANCH
-          git branch -D ${NEW_BRANCH}
-          git push origin --delete ${NEW_BRANCH}
+            console.log(`Pull request created: ${pullRequest.html_url}`);
