@@ -31,4 +31,6 @@ jobs:
           body:
             Pull Request...
           token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: 3bsalam-1
+          reviewers: 3bsalam-1
           delete-branch: true
