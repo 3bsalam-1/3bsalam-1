@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#147 Update newpr.yml</span>
+                                        <span class="issue">#148 Update pr.yml</span>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -40,7 +40,7 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#147 Update newpr.yml</span>
+                                        <span class="issue">#148 Update pr.yml</span>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -73,12 +73,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#128 Delete .github/workflows/pr.yml</span>
+                                        <span class="issue">#147 Update newpr.yml</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">3bsalam-1/3bsalam-1</span></div>
-                                    <div>1 file changed <span class="code">++0 --25</span></div>
+                                    <div>1 file changed <span class="code">++2 --2</span></div>
                                 </div>
                             </section>
                         </div>
