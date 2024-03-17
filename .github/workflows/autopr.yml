@@ -6,6 +6,7 @@ on:
       - main
   schedule:
   - cron: "1 * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
+
 jobs:
   updateAuthor:
     runs-on: ubuntu-latest
@@ -26,24 +27,26 @@ jobs:
           branch: "PR-Bot1"
           base: main
           title: "Pull Request."
-          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
-          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
+          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
+          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
           body: |
             Pull Request.
           token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
 
       - name: Approve Pull Request1
+        id: approve-pr-1
         uses: juliangruber/approve-pull-request-action@v1
         with:
-          github-token: ${{ secrets.METRICS_TOKEN }}
-          number: "${{ steps.demo-1.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ steps.demo-1.outputs.pull-request-number || '0' }}
 
       - name: Merge Pull request1
+        id: merge-pr-1
         uses: juliangruber/merge-pull-request-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: "${{ steps.demo-1.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
+          number: ${{ steps.demo-1.outputs.pull-request-number || '0' }}
           method: squash
 
       - name: Update author information again
@@ -56,22 +59,24 @@ jobs:
           branch: "PR-Bot2"
           base: main
           title: "Pull Request.."
-          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
-          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
+          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
+          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
           body: |
             Pull Request..
           token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
 
       - name: Approve Pull Request2
+        id: approve-pr-2
         uses: juliangruber/approve-pull-request-action@v1
         with:
-          github-token: ${{ secrets.METRICS_TOKEN }}
-          number: "${{ steps.demo-2.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ steps.demo-2.outputs.pull-request-number || '0' }}
 
       - name: Merge Pull request2
+        id: merge-pr-2
         uses: juliangruber/merge-pull-request-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: "${{ steps.demo-2.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
+          number: ${{ steps.demo-2.outputs.pull-request-number || '0' }}
           method: squash
