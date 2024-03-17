@@ -16,9 +16,6 @@ jobs:
       - name: extract git commit data
         uses: rlespinasse/git-commit-data-action@v1.x
 
-      - name: Update author information
-        run: echo ${{ env.GIT_COMMIT_AUTHOR_NAME }} > AUTHOR
-
       - name: Set up Git
         run: |
           git config --global user.name "${{ env.GIT_COMMIT_AUTHOR_NAME }}"
@@ -28,7 +25,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git checkout -b main
+          git checkout -b feature-branch
+          echo ${{ env.GIT_COMMIT_AUTHOR_NAME }} > AUTHOR
           git add .
           git commit -m "Add new feature"
           git push origin feature-branch
