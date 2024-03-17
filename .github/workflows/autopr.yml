@@ -37,13 +37,13 @@ jobs:
         uses: juliangruber/approve-pull-request-action@v1
         with:
           github-token: ${{ secrets.METRICS_TOKEN }}
-          number: ${{ steps.demo-1.outputs.pull-request-number }}
+          number: "${{ steps.demo-1.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
 
       - name: Merge Pull request1
         uses: juliangruber/merge-pull-request-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.demo-1.outputs.pull-request-number }}
+          number: "${{ steps.demo-1.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
           method: squash
 
       - name: Update author information again
@@ -67,11 +67,11 @@ jobs:
         uses: juliangruber/approve-pull-request-action@v1
         with:
           github-token: ${{ secrets.METRICS_TOKEN }}
-          number: ${{ steps.demo-2.outputs.pull-request-number }}
+          number: "${{ steps.demo-2.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
 
       - name: Merge Pull request2
         uses: juliangruber/merge-pull-request-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.demo-2.outputs.pull-request-number }}
+          number: "${{ steps.demo-2.outputs.pull-request-number }}" # Fix: Ensure the pull-request-number is passed as a string
           method: squash
