@@ -11,6 +11,8 @@
 ![Static Badge](https://img.shields.io/badge/linkedin-white?style=for-the-badge&logo=linkedin&color=%230A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahmed-abdulsalam1%2F)
 </div>
 <div id="header1" align="center">
+  
+  ![badge](https://aktive.kerolloz.dev/egypt/3bsalam-1?label=&color=gray&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
   <img src="https://komarev.com/ghpvc/?username=3bsalam-1&color=gray&style=for-the-badge&label=VIEWS"/>
 </div>
 <div id="view" align="center">
