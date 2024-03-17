@@ -38,7 +38,7 @@ jobs:
         id: approve-pr-1
         uses: juliangruber/approve-pull-request-action@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.METRICS_TOKEN }}
           number: ${{ steps.demo-1.outputs.pull-request-number || '0' }}
 
       - name: Merge Pull request1
@@ -70,7 +70,7 @@ jobs:
         id: approve-pr-2
         uses: juliangruber/approve-pull-request-action@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.METRICS_TOKEN }}
           number: ${{ steps.demo-2.outputs.pull-request-number || '0' }}
 
       - name: Merge Pull request2
