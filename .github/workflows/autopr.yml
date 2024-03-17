@@ -18,7 +18,9 @@ jobs:
         uses: rlespinasse/git-commit-data-action@v1.x
 
       - name: Update author information
-        run: echo ${{ env.GIT_COMMIT_AUTHOR_NAME }} > AUTHOR
+        run: |
+          d=`date '+%Y-%m-%dT%H:%M:%SZ'`
+          echo ${{ env.GIT_COMMIT_AUTHOR_NAME }} $d > AUTHOR
 
       - name: Raise PR 1
         id: demo-1
@@ -48,7 +50,9 @@ jobs:
           method: squash
 
       - name: Update author information again
-        run: echo 3bsalam-1 > AUTHOR
+        run: |
+          d=`date '+%Y-%m-%dT%H:%M:%SZ'`
+          echo 3bsalam-1 $d > AUTHOR
 
       - name: Raise PR 2
         id: demo-2
