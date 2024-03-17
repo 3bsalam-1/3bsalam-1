@@ -25,6 +25,8 @@ jobs:
           git config --global user.email "${{ env.GIT_COMMIT_AUTHOR_EMAIL }}"
 
       - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git checkout -b feature-branch
           git add .
