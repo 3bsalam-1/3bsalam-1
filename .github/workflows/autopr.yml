@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-  - cron: "59 11 * * *"
+  - cron: "1 * * * *"
 
 jobs:
   updateAuthor:
