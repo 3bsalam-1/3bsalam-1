@@ -54,7 +54,7 @@ jobs:
         id: demo-2
         uses: peter-evans/create-pull-request@v3
         with:
-          branch: "PR-Bot."
+          branch: "PR-Bot2"
           base: main
           title: "Pull Request.."
           committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
