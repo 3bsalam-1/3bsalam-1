@@ -26,7 +26,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           git checkout -b feature-branch
-          echo 3bsalam-1 > AUTHOR
+          echo 3bsalam-1 > AUTHOR2
           git add .
           git commit -m "Add new feature"
           git push origin feature-branch
