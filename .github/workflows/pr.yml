@@ -28,7 +28,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git checkout -b feature-branch
+          git checkout -b main
           git add .
           git commit -m "Add new feature"
           git push origin feature-branch
