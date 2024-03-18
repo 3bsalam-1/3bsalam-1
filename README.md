@@ -12,8 +12,8 @@
 </div>
 <div id="header1" align="center">
   
-  ![badge](https://aktive.kerolloz.dev/egypt/3bsalam-1?label=&color=gray&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
-  <img src="https://komarev.com/ghpvc/?username=3bsalam-1&color=gray&style=for-the-badge&label=VIEWS"/>
+  ![badge](https://aktive.kerolloz.dev/egypt/3bsalam-1?label=&color=12100E&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
+  <img src="https://komarev.com/ghpvc/?username=3bsalam-1&color=12100E&style=for-the-badge&label=VIEWS"/>
 </div>
 <div id="view" align="center">
 
