@@ -2,7 +2,7 @@
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" height=170 />
 </div>
 <div id="badges"align="center">
-
+  
 [![Spotify](https://novatorem-self-one.vercel.app/api/spotify)](https://open.spotify.com/user/9m3wv5dp)
 
 ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white&link=https%3A%2F%2Fwww.facebook.com%2F3BSALAM.Alien)
