@@ -26,7 +26,8 @@ jobs:
         id: demo-1
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
+          commit-message: |
+            Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot"
           base: main
           title: "Pull Request."
@@ -59,7 +60,8 @@ jobs:
         id: demo-2
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
+          commit-message: |
+            Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot2"
           base: main
           title: "Pull Request.."
