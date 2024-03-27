@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checking out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: extract git commit data
         uses: rlespinasse/git-commit-data-action@v1.x
@@ -24,7 +24,7 @@ jobs:
 
       - name: Raise PR 1
         id: demo-1
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot"
@@ -57,7 +57,7 @@ jobs:
 
       - name: Raise PR 2
         id: demo-2
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot2"
