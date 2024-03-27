@@ -27,12 +27,15 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: |
+
+          
             Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot"
           base: main
           title: "Pull Request."
-          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
-          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
+          signoff: false
           body:
             Pull Request.
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -61,12 +64,15 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: |
+
+          
             Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot2"
           base: main
           title: "Pull Request.."
-          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
-          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
+          signoff: false
           body:
             Pull Request..
           token: ${{ secrets.GITHUB_TOKEN }}
