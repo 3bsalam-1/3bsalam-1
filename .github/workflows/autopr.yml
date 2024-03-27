@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checking out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: extract git commit data
         uses: rlespinasse/git-commit-data-action@v1.x
@@ -24,18 +24,13 @@ jobs:
 
       - name: Raise PR 1
         id: demo-1
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: |
-
-          
-            Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot"
           base: main
           title: "Pull Request."
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
-          signoff: false
+          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
+          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
           body:
             Pull Request.
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -61,18 +56,13 @@ jobs:
 
       - name: Raise PR 2
         id: demo-2
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: |
-
-          
-            Co-authored-by: Eman1-2-3 <ghazyeman360@gmail.com>
           branch: "PR-Bot2"
           base: main
           title: "Pull Request.."
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
-          signoff: false
+          committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
+          author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
           body:
             Pull Request..
           token: ${{ secrets.GITHUB_TOKEN }}
