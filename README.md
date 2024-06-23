@@ -37,11 +37,11 @@ pragma python ^3.10.1
 
 Class Profile :
     self.name = "Ahmed Mohamed"
-    self.jop_title ="Data Scientist"
-    self.country= "Egypt"
+    self.jop_title = "Data Scientist"
+    self.country = "Egypt"
     self.currently_working = ["Data Science","Machine Learning","Deep Learning"]
     self.currently_learning = ["Advanced Data Science","Recommendation Systems","Reinforcement Learning"]
-    self.ask=_me_about = ["Technical support", "Operating systems", "Desktop apps", "IT", "Data Science"]
+    self.ask_me_about = ["Technical support", "Operating systems", "Desktop apps", "IT", "Data Science"]
     self.fun_fact = "I can cook"
     self.pronouns = "He | Him"
 
