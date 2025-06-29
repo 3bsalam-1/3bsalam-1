@@ -1,4 +1,3 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Achievements
 on:
   schedule: [{ cron: "1 * * * *" }]
@@ -13,7 +12,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: assets/metrics.plugin.achievements.svg
-          
+
           # Options
           user: 3bsalam-1
           template: classic
