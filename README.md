@@ -33,7 +33,7 @@
 
 ```python
 #SPDX-License-Identifier: MIT
-pragma python ^3.10.1
+pragma python ^3.14.0
 
 Class Profile :
     self.name = "Ahmed Mohamed"
