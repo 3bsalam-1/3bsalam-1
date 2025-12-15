@@ -18,7 +18,7 @@
                         <h3>Total stargazers</h3>
                         <div class="chart-bars">
                             <div class="entry">
-                                <span class="value">73</span>
+                                <span class="value">69</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 2
                                 <div class="bottom">Dec.</div>
@@ -69,7 +69,7 @@
                                 11
                             </div>
                             <div class="entry">
-                                <span class="value">74</span>
+                                <span class="value">70</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 12
                             </div>
