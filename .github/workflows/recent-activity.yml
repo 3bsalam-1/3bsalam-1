@@ -24,7 +24,7 @@ jobs:
           plugin_activity_days: 14          # Days history (default: 14)
           plugin_activity_visibility: public   # Visibility: public (safest to start)
           plugin_activity_timestamps: no    # Timestamps (default: no)
-          plugin_activity_filter: all       # Filter: all, push, issue, pr, etc.
+          plugin_activity_filter: push, issue, pr, review, star, fork, release # Explicit list to avoid buggy event types
           
           # Optional settings (uncomment to use)
           # plugin_activity_ignored: bot-user, other-user 
