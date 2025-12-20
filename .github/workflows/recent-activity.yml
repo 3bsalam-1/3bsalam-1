@@ -9,13 +9,20 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.USER_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
           base: ""
           filename: assets/metrics.plugin.activity.svg
           
+          # Debugging
+          debug: yes
+          
+          # Activity Plugin
           plugin_activity: yes
           plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_activity_days: 14     # Kept low to check recent events first
+          plugin_activity_filter: all  # Reset to all to catch the error
+          
+          # WORKAROUND: Ignore bots which often have missing profile data
+          plugin_activity_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
