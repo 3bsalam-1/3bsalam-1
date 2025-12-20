@@ -22,7 +22,7 @@ jobs:
           plugin_activity_limit: 5          # Limit (default: 5)
           plugin_activity_load: 300         # Events to load (default: 300)
           plugin_activity_days: 14          # Days history (default: 14)
-          plugin_activity_visibility: all   # Visibility: public or all
+          plugin_activity_visibility: public   # Visibility: public (safest to start)
           plugin_activity_timestamps: no    # Timestamps (default: no)
           plugin_activity_filter: all       # Filter: all, push, issue, pr, etc.
           
