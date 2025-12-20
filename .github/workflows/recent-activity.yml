@@ -13,7 +13,7 @@ jobs:
           user: ${{ github.repository_owner }}
           template: classic
           base: ""
-          filename: assets/metrics.plugin.activity.svg
+          filename: assets/metrics.plugin.recent-activity.svg
 
           # Activity Plugin Configuration
           # These options match the definition you provided:
