@@ -15,6 +15,11 @@ on:
     branches:
     - main
 
+# Concurrency group to cancel previous runs on the same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 # The sequence of runs in this workflow:
 jobs:
   # This workflow contains a single job called "build"
