@@ -9,23 +9,13 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }} 
+          token: ${{ secrets.METRICS_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
           base: ""
-          filename: assets/metrics.plugin.recent-activity.svg
-
-          # Activity Plugin Configuration
-          # These options match the definition you provided:
+          filename: assets/metrics.plugin.activity.svg
           
-          plugin_activity: yes              # Enable the plugin
-          plugin_activity_limit: 5          # Limit (default: 5)
-          plugin_activity_load: 100         # Reduced to avoid old malformed events
-          plugin_activity_days: 14          # Days history (default: 14)
-          plugin_activity_visibility: public   # Visibility: public (safest to start)
-          plugin_activity_timestamps: no    # Timestamps (default: no)
-          plugin_activity_filter: push      # Testing with just PUSH events first
-          
-          # Optional settings (uncomment to use)
-          # plugin_activity_ignored: bot-user, other-user 
-          # plugin_activity_skipped: my-repo, other-repo
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
