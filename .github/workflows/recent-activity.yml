@@ -6,17 +6,9 @@ on:
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: { branches: ["master", "main"] }
-
-# Concurrency group to cancel previous runs on the same branch
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -24,13 +16,13 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: ${{ github.repository_owner }}
+          user: 3bsalam-1
           template: classic
           base: ""
           config_timezone: Asia/Calcutta
           plugin_activity: yes
           plugin_activity_days: 31
-          plugin_activity_filter: push, issue, pr, release, fork, review, ref/create
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
           plugin_activity_limit: 4
           plugin_activity_load: 300
-          plugin_activity_visibility: public
+          plugin_activity_visibility: all
