@@ -21,8 +21,9 @@ jobs:
           # Activity Plugin
           plugin_activity: yes
           plugin_activity_limit: 5
-          plugin_activity_days: 14     # Kept low to check recent events first
-          plugin_activity_filter: all  # Reset to all to catch the error
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_visibility: public # Reset to public just in case
           
-          # WORKAROUND: Ignore bots which often have missing profile data
-          plugin_activity_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
+          # WORKAROUND: Ignore bots and GHOST users (deleted accounts)
+          plugin_activity_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot], ghost
