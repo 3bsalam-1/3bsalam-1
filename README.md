@@ -125,7 +125,7 @@ class AI_Engineer:
 
 <table><tr><td valign="top" width="50%">
 
-<img src="./assets/metrics.plugin.activity.svg">
+<img src="./assets/metrics.plugin.introduction.svg">
 
 </td><td valign="top" width="50%">
 
