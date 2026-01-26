@@ -12,6 +12,10 @@
   <a href="https://medium.com/@3bsalam0">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
   </a>
+    </a>
+  <a href="https://www.kaggle.com/ahmedmohamedab">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  </a>
   <a href="https://www.instagram.com/3bsalam.1">
     <img src="https://img.shields.io/badge/instagram-white?style=for-the-badge&logo=instagram" />
   </a>
