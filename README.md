@@ -156,6 +156,7 @@ class AI_Engineer:
  
 ### 📜 Certifications
 
+- **Getting Started with Deep Learning** - Nvidia
 - **Supervised Machine Learning: Regression and Classification** - DeepLearning.AI & Stanford University (Coursera)
 - **Python Project: pillow, tesseract, and OpenCV** - University of Michigan (Coursera)
 
