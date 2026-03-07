@@ -26,7 +26,7 @@
 </div>
 <div id="header1" align="center">
   
-  ![badge](https://top-badge.vercel.app/egypt/3bsalam-1?label=&color=12100E&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
+  ![badge](https://top-badge.vercel.app/egypt/3bsalam-1?category=commits&label=&color=12100E&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
   <img src="https://komarev.com/ghpvc/?username=3bsalam-1&color=12100E&style=for-the-badge&label=VIEWS&abbreviated=true"/>
   ![](https://hit.yhype.me/github/profile?user_id=121203923)
 </div>
