@@ -149,7 +149,7 @@ class AI_Engineer:
 
 ---
 
- [![trophy](https://github-profile-trophy-ahmed.vercel.app/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true&column=-1)](https://github.com/3bsalam-1?tab=repositories)<!--(https://github.com/ryo-ma/github-profile-trophy)-->
+ [![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=3bsalam-1&theme=onedark&no-bg=true&no-frame=true&column=-1)](https://github.com/3bsalam-1?tab=repositories)<!--(https://github.com/ryo-ma/github-profile-trophy)-->
 </div>
  
 ---
